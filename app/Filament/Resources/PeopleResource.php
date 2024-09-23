@@ -10,7 +10,7 @@ use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
-use ManukMinasyan\FilamentCustomField\Filament\Forms\Components\CustomFieldsComponent\CustomFieldsComponent;
+use Telis\CustomFields\Filament\Forms\Components\CustomFieldsComponent;
 
 class PeopleResource extends Resource
 {
