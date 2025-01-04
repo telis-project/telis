@@ -14,7 +14,7 @@
                     Get Started
                 </a>
                 <a href="https://github.com/telis/telis" target="_blank">
-                    <img src="https://img.shields.io/github/stars/telis/telis" alt="stars">
+                    <img src="/images/github.svg" alt="stars">
                 </a>
             </div>
 
