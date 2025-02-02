@@ -5,10 +5,13 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Telis\CustomFields\Models\Concerns\UsesCustomFields;
+use Telis\CustomFields\Models\Contracts\HasCustomFields;
 
-class Note extends Model
+class Note extends Model implements HasCustomFields
 {
     use HasFactory;
+    use UsesCustomFields;
 
     public function team(): BelongsTo
     {
