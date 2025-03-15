@@ -14,9 +14,9 @@
 <p align="center">
   <a href="https://www.telis.dev">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://telis.dev/images/app-preview.png">
-      <source media="(prefers-color-scheme: light)" srcset="https://telis.dev/images/app-preview.png">
-      <img src="https://telis.dev/images/app-preview.png" alt="Companies view" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://telis.dev/images/app-preview.png?a=1">
+      <source media="(prefers-color-scheme: light)" srcset="https://telis.dev/images/app-preview.png?a=1">
+      <img src="https://telis.dev/images/app-preview.png?a=1" alt="Companies view" />
     </picture>
   </a>
 </p>
