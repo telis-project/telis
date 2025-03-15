@@ -1,4 +1,3 @@
-<br>
 <p align="center">
   <a href="https://telis.dev">
     <img src="https://telis.dev/telis-logo.svg" width="100px" alt="Telis logo" />
