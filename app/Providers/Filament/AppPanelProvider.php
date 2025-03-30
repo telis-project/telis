@@ -36,6 +36,7 @@ use Laravel\Fortify\Fortify;
 use Laravel\Jetstream\Features;
 use Laravel\Jetstream\Jetstream;
 use Telis\CustomFields\CustomFieldsPlugin;
+use Telis\Flowforge\FlowforgePlugin;
 
 final class AppPanelProvider extends PanelProvider
 {
