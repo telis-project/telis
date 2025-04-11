@@ -40,6 +40,11 @@ use Telis\CustomFields\CustomFieldsPlugin;
 
 final class AppPanelProvider extends PanelProvider
 {
+    /**
+     * Perform post-registration booting of components.
+     *
+     * @return void
+     */
     public function boot(): void
     {
         /**
@@ -66,14 +71,13 @@ final class AppPanelProvider extends PanelProvider
      *
      * @throws \Exception
      */
-    #[\Override]
     public function panel(Panel $panel): Panel
     {
         $panel
             ->default()
             ->id('app')
             ->path('app')
-            ->homeUrl(fn (): string => CompanyResource::getUrl('index'))
+            ->homeUrl(fn (): string => CompanyResource::getUrl())
             ->brandName('Telis')
             ->login(Login::class)
             ->passwordReset()
