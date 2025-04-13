@@ -21,6 +21,15 @@
   </a>
 </p>
 
+## Documentation
+
+Telis comes with comprehensive documentation:
+
+- [Business Guide](resources/markdown/business-guide.md) - Overview of Telis from a business perspective
+- [Quick Start Guide](resources/markdown/quick-start-guide.md) - Step-by-step guide for new users
+- [Technical Guide](resources/markdown/technical-guide.md) - Architecture and development information
+- [API Documentation](resources/markdown/api-guide.md) - Integration with the Telis API
+
 ## Installation
 
 Telis is a regular Laravel application; it's build on top of Laravel 12 / Filament 3 and uses Livewire / Tailwind
