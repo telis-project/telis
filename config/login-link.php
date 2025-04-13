@@ -19,6 +19,7 @@ return [
         'localhost',
         '127.0.0.1',
         'telis-app.test',
+        'app.telis-app.test'
     ],
 
     /*
