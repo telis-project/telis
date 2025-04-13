@@ -12,8 +12,8 @@ use Telis\CustomFields\Enums\CustomFieldType;
  */
 enum Note: string
 {
-    use EnumValues;
     use CustomFieldTrait;
+    use EnumValues;
 
     case BODY = 'body';
 

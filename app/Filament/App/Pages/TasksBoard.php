@@ -4,19 +4,18 @@ declare(strict_types=1);
 
 namespace App\Filament\App\Pages;
 
+use App\Enums\CustomFields\Task as TaskCustomField;
 use App\Filament\App\Adapters\TasksKanbanAdapter;
 use App\Filament\App\Resources\TaskResource\Forms\TaskForm;
 use App\Models\Task;
-use App\Enums\CustomFields\Task as TaskCustomField;
+use Filament\Actions\Action;
+use Filament\Forms;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Auth;
 use Telis\CustomFields\Models\CustomField;
 use Telis\Flowforge\Contracts\KanbanAdapterInterface;
 use Telis\Flowforge\Filament\Pages\KanbanBoardPage;
-use Filament\Actions\Action;
-use Filament\Forms;
-use Telis\CustomFields\Filament\Forms\Components\CustomFieldsComponent;
 
 final class TasksBoard extends KanbanBoardPage
 {
@@ -53,7 +52,7 @@ final class TasksBoard extends KanbanBoardPage
             ->modalWidth('2xl')
             ->iconButton()
             ->icon('heroicon-o-plus')
-            ->form(fn(Forms\Form $form): \Filament\Forms\Form => TaskForm::get($form))
+            ->form(fn (Forms\Form $form): \Filament\Forms\Form => TaskForm::get($form))
             ->action(function (Action $action, array $arguments): void {
                 $task = Auth::user()->currentTeam->tasks()->create($action->getFormData());
                 $task->saveCustomFieldValue($this->statusCustomField(), $arguments['column']);
@@ -62,7 +61,7 @@ final class TasksBoard extends KanbanBoardPage
 
     public function editAction(Action $action): Action
     {
-        return $action->form(fn(Forms\Form $form): \Filament\Forms\Form => TaskForm::get($form));
+        return $action->form(fn (Forms\Form $form): \Filament\Forms\Form => TaskForm::get($form));
     }
 
     public function getAdapter(): KanbanAdapterInterface
@@ -80,7 +79,7 @@ final class TasksBoard extends KanbanBoardPage
 
     private function statuses(): Collection
     {
-        return $this->statusCustomField()->options->map(fn($option): array => [
+        return $this->statusCustomField()->options->map(fn ($option): array => [
             'id' => $option->id,
             'custom_field_id' => $option->custom_field_id,
             'name' => $option->name,
