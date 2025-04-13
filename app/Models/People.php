@@ -12,15 +12,20 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
+use Illuminate\Database\Eloquent\SoftDeletes;
 use Telis\CustomFields\Models\Concerns\UsesCustomFields;
 use Telis\CustomFields\Models\Contracts\HasCustomFields;
 
+/**
+ * @property \Illuminate\Support\Carbon|null $deleted_at
+ */
 #[ObservedBy(PeopleObserver::class)]
 final class People extends Model implements HasCustomFields
 {
     /** @use HasFactory<PeopleFactory> */
     use HasFactory;
 
+    use SoftDeletes;
     use UsesCustomFields;
 
     /**
