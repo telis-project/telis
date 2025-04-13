@@ -6,7 +6,7 @@
 
 <h2 align="center" >The Next-Generation Open-Source CRM Platform</h3>
 
-<p align="center"><a href="https://telis.dev">🌐 Website</a> · <a href="https://telis.dev/developers">📚 Documentation</a> · <a href="https://github.com/orgs/Telis/projects/1/views/1">🛣️ Roadmap </a>
+<p align="center"><a href="https://telis.dev">🌐 Website</a> · <a href="https://telis.dev/documentation">📚 Documentation</a> · <a href="https://github.com/orgs/Telis/projects/1/views/1">🛣️ Roadmap </a>
 <p>
 <br />
 
