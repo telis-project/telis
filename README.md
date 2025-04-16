@@ -30,6 +30,16 @@ Telis comes with comprehensive documentation:
 - [Technical Guide](resources/markdown/technical-guide.md) - Architecture and development information
 - [API Documentation](resources/markdown/api-guide.md) - Integration with the Telis API
 
+## Premium Component
+
+Telis includes one premium component in its ecosystem - the **Data Model (Custom Fields)** plugin. This Filament plugin is developed by Telis and provides powerful dynamic data management capabilities throughout the application.
+
+For detailed information about this component, see:
+- **Documentation**: [custom-fields.telis.dev/introduction](https://custom-fields.telis.dev/introduction)
+- **Marketplace**: [filamentphp.com/plugins/telis-custom-fields](https://filamentphp.com/plugins/telis-custom-fields)
+
+This is the only paid component in the Telis ecosystem and represents a significant intellectual property investment that enables the platform's flexible data modeling capabilities.
+
 ## Installation
 
 Telis is a regular Laravel application; it's build on top of Laravel 12 / Filament 3 and uses Livewire / Tailwind
