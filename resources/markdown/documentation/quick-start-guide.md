@@ -1,4 +1,4 @@
-# Telis Quick Start Guide
+# Quick Start Guide
 
 Welcome to Telis! This guide will help you get up and running quickly with our CRM platform. Follow these steps to set up your account and start managing your customer relationships more effectively.
 

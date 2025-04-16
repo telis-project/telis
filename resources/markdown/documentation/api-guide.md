@@ -1,4 +1,4 @@
-# Telis API Documentation
+# API Documentation
 
 This guide provides documentation for the Telis API, allowing developers to integrate Telis's CRM capabilities with other applications.
 

@@ -1,4 +1,4 @@
-# Telis Business Guide
+# Business Guide
 
 ## Welcome to Telis
 
