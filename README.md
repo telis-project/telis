@@ -6,6 +6,7 @@
 
 <h1 align="center">Telis - Open-Source CRM Platform</h1>
 
+
 <p align="center">
   <a href="https://laravel.com/docs/12.x"><img src="https://img.shields.io/badge/Laravel-12.x-FF2D20?style=flat-square&logo=laravel" alt="Laravel 12"></a>
   <a href="https://php.net"><img src="https://img.shields.io/badge/PHP-8.3-777BB4?style=flat-square&logo=php" alt="PHP 8.3"></a>
@@ -17,6 +18,10 @@
   <a href="https://telis.dev">🌐 Website</a> ·
   <a href="https://telis.dev/documentation">📚 Documentation</a> ·
   <a href="https://github.com/orgs/Telis/projects/1/views/1">🛣️ Roadmap</a>
+</p>
+
+<p align="center">
+  <img src="https://telis.dev/images/github-preview-light.png" alt="Telis Dashboard" style="max-width: 100%; border-radius: 8px; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);" />
 </p>
 
 ---
@@ -31,10 +36,6 @@ Telis is a powerful, adaptable CRM platform built with modern technologies to he
 - 🚀 **Modern Technology** - Built on Laravel 12, PHP 8.3, and Filament 3
 - 🔒 **Privacy-Focused** - Self-host with complete data ownership
 - 🌱 **Open Source** - Transparent development with GPL-3.0 license
-
-<p align="center">
-  <img src="https://telis.dev/images/github-preview-light.png" alt="Telis Dashboard" style="max-width: 100%; border-radius: 8px; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);" />
-</p>
 
 ## ✨ Features
 
