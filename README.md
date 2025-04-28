@@ -34,7 +34,7 @@ Telis is a powerful, adaptable CRM platform built with modern technologies to he
 - 🌱 **Open Source** - Transparent development with GPL-3.0 license
 
 <p align="center">
-  <img src="https://telis.dev/images/app-preview.png?a=1" alt="Telis Dashboard" style="max-width: 100%; border-radius: 8px; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);" />
+  <img src="https://telis.dev/images/github-preview-light.png" alt="Telis Dashboard" style="max-width: 100%; border-radius: 8px; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);" />
 </p>
 
 ## ✨ Features
