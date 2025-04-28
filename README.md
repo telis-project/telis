@@ -1,10 +1,10 @@
-# Telis - Open-Source CRM Platform
-
 <p align="center">
   <a href="https://telis.dev">
     <img src="https://telis.dev/telis-logo.svg" width="100px" alt="Telis logo" />
   </a>
 </p>
+
+<h1 align="center">Telis - Open-Source CRM Platform</h1>
 
 <p align="center">
   <a href="https://laravel.com/docs/12.x"><img src="https://img.shields.io/badge/Laravel-12.x-FF2D20?style=flat-square&logo=laravel" alt="Laravel 12"></a>
@@ -16,8 +16,7 @@
 <p align="center">
   <a href="https://telis.dev">🌐 Website</a> ·
   <a href="https://telis.dev/documentation">📚 Documentation</a> ·
-  <a href="https://github.com/orgs/Telis/projects/1/views/1">🛣️ Roadmap</a> ·
-  <a href="#contributing">👥 Contributing</a>
+  <a href="https://github.com/orgs/Telis/projects/1/views/1">🛣️ Roadmap</a>
 </p>
 
 ---
@@ -121,9 +120,9 @@ Telis comes with comprehensive documentation:
 
 ## 🧩 Premium Components
 
-While Telis is fully open-source, it offers an optional premium component:
+While Telis is fully open-source, it offers a premium component:
 
-**Custom Fields** - A Filament plugin providing dynamic data modeling capabilities throughout the application, enabling unlimited customization possibilities without coding.
+**Custom Fields** - A Filament plugin providing dynamic data modeling capabilities throughout the application, enabling unlimited customization possibilities without coding. This component is required for full functionality.
 
 - [Documentation](https://custom-fields.telis.dev/introduction)
 - [Marketplace](https://filamentphp.com/plugins/telis-custom-fields)
@@ -167,3 +166,5 @@ Telis is open-source software licensed under the [GPL-3.0 license](LICENSE).
 <p align="center">
   Built with ❤️ by the Telis Team
 </p>
+
+`
