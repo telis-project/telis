@@ -160,11 +160,3 @@ For more details, see our [Contributing Guide](CONTRIBUTING.md).
 ## 📝 License
 
 Telis is open-source software licensed under the [GPL-3.0 license](LICENSE).
-
----
-
-<p align="center">
-  Built with ❤️ by the Telis Team
-</p>
-
-`
