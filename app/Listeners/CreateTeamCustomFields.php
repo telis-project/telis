@@ -21,7 +21,7 @@ use Telis\CustomFields\Data\CustomFieldData;
 use Telis\CustomFields\Data\CustomFieldSectionData;
 use Telis\CustomFields\Data\CustomFieldSettingsData;
 use Telis\CustomFields\Enums\CustomFieldSectionType;
-use Telis\OnboardSeed\SampleDataSeeder;
+use Telis\OnboardSeed\OnboardSeeder;
 
 /**
  * Creates custom fields for a team when it's created
@@ -46,7 +46,7 @@ final readonly class CreateTeamCustomFields
      */
     public function __construct(
         private CustomsFieldsMigrators $migrator,
-        private SampleDataSeeder $sampleDataSeeder,
+        private OnboardSeeder $onboardSeeder,
     ) {}
 
     /**
@@ -71,7 +71,7 @@ final readonly class CreateTeamCustomFields
         }
 
         if ($team->isPersonalTeam()) {
-            $this->sampleDataSeeder->run($team->owner);
+            $this->onboardSeeder->run($team->owner);
         }
     }
 
@@ -114,6 +114,5 @@ final readonly class CreateTeamCustomFields
 
         // Create the field in the database
         $migrator->create();
-
     }
 }
