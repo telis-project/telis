@@ -14,7 +14,6 @@ use App\Models\Note;
 use App\Models\Opportunity;
 use App\Models\People;
 use App\Models\Task;
-use Database\Seeders\SampleData\SampleDataSeeder;
 use Laravel\Jetstream\Events\TeamCreated;
 use Laravel\Jetstream\Features;
 use Telis\CustomFields\Contracts\CustomsFieldsMigrators;
@@ -22,6 +21,7 @@ use Telis\CustomFields\Data\CustomFieldData;
 use Telis\CustomFields\Data\CustomFieldSectionData;
 use Telis\CustomFields\Data\CustomFieldSettingsData;
 use Telis\CustomFields\Enums\CustomFieldSectionType;
+use Telis\OnboardSeed\SampleDataSeeder;
 
 /**
  * Creates custom fields for a team when it's created
