@@ -45,7 +45,7 @@ final class DocumentationServiceProvider extends ServiceProvider
     private function registerComponents(): void
     {
         // Register components with the 'documentation::' namespace
-        Blade::componentNamespace('Telis\\Documentation\\View\\Components', 'documentation');
+        Blade::componentNamespace('Telis\\Documentation\\Components', 'documentation');
 
         // Register anonymous components
         $this->loadViewComponentsAs('documentation', []);
