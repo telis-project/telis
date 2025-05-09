@@ -13,7 +13,7 @@ arch()->preset()
     ->ignoring([
         'App\Providers\AppServiceProvider',
         'App\Providers\Filament\AppPanelProvider',
-        'App\Providers\Filament\AdminPanelProvider',
+        'Telis\Admin\AdminPanelProvider',
         'App\Enums\EnumValues',
         'App\Enums\CustomFields\CustomFieldTrait',
     ]);
