@@ -1,12 +1,14 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Telis\Admin\Filament\Resources\TeamResource\Pages;
 
-use Telis\Admin\Filament\Resources\TeamResource;
 use Filament\Actions;
 use Filament\Resources\Pages\ListRecords;
+use Telis\Admin\Filament\Resources\TeamResource;
 
-class ListTeams extends ListRecords
+final class ListTeams extends ListRecords
 {
     protected static string $resource = TeamResource::class;
 
