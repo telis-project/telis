@@ -18,9 +18,9 @@
             <!-- Logo (Left Column) -->
             <div class="flex-shrink-0 w-1/4">
                 <a href="{{ url('/') }}" class="flex items-center space-x-2.5 group" aria-label="Telis Home">
-                    <div class="relative overflow-hidden">
-                        <img class="h-8 w-auto transition-transform duration-300 group-hover:scale-105"
-                             src="{{ asset('telis-logo.svg') }}" alt="Telis Logo">
+                    <div class="relative overflow-hidden group-hover:scale-105 transition-transform duration-300">
+                        <img class="h-8 w-auto"
+                             src="{{ asset('telis-logomark.svg') }}" alt="Telis Logo">
                     </div>
                     <span
                         class="font-bold text-lg text-black dark:text-white hidden sm:block transition-opacity duration-300 group-hover:opacity-80">Telis</span>
