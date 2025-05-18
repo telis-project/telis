@@ -8,10 +8,10 @@
 
 
 <p align="center">
-  <a href="https://laravel.com/docs/12.x"><img src="https://img.shields.io/badge/Laravel-12.x-FF2D20?style=flat-square&logo=laravel" alt="Laravel 12"></a>
-  <a href="https://php.net"><img src="https://img.shields.io/badge/PHP-8.3-777BB4?style=flat-square&logo=php" alt="PHP 8.3"></a>
-  <a href="https://github.com/Telis/telis/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-GPL--3.0-blue.svg?style=flat-square" alt="License"></a>
-  <a href="https://github.com/Telis/telis/actions"><img src="https://img.shields.io/github/actions/workflow/status/Telis/telis/tests.yml?branch=main&style=flat-square&label=tests" alt="Tests"></a>
+  <a href="https://laravel.com/docs/12.x"><img src="https://img.shields.io/badge/Laravel-12.x-FF2D20?style=for-the-badge&logo=laravel" alt="Laravel 12"></a>
+  <a href="https://php.net"><img src="https://img.shields.io/badge/PHP-8.3-777BB4?style=for-the-badge&logo=php" alt="PHP 8.3"></a>
+  <a href="https://github.com/Telis/telis/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-GPL--3.0-blue.svg?style=for-the-badge" alt="License"></a>
+  <a href="https://github.com/Telis/telis/actions"><img src="https://img.shields.io/github/actions/workflow/status/Telis/telis/tests.yml?branch=main&style=for-the-badge&label=tests" alt="Tests"></a>
 </p>
 
 <p align="center">
@@ -65,6 +65,6 @@ This component is paid to fund ongoing development of the open-source platform a
 Telis is open-source software licensed under the [GPL-3.0 license](LICENSE).
 
 
-# Star History
+## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Telis/telis&type=Date)](https://star-history.com/#Telis/telis&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Telis/telis&type=Date)](https://www.star-history.com/#Telis/telis&Date)
