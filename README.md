@@ -63,3 +63,8 @@ This component is paid to fund ongoing development of the open-source platform a
 ## License
 
 Telis is open-source software licensed under the [GPL-3.0 license](LICENSE).
+
+
+# Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Telis/telis&type=Date)](https://star-history.com/#Telis/telis&Date)
