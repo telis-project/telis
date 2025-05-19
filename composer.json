@@ -21,7 +21,7 @@
         "laravel/socialite": "^5.16",
         "laravel/tinker": "^2.9",
         "livewire/livewire": "^3.0",
-        "telis/custom-fields": "^1.5.0-beta",
+        "telis/custom-fields": "^1.5.11-beta",
         "telis/flowforge": "^0.1",
         "sentry/sentry-laravel": "^4.13",
         "spatie/eloquent-sortable": "^4.4",
