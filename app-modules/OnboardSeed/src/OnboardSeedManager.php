@@ -6,7 +6,6 @@ namespace Telis\OnboardSeed;
 
 use App\Models\User;
 use Illuminate\Contracts\Auth\Authenticatable;
-use Illuminate\Support\Facades\Log;
 use Telis\OnboardSeed\Contracts\ModelSeederInterface;
 use Telis\OnboardSeed\ModelSeeders\CompanySeeder;
 use Telis\OnboardSeed\ModelSeeders\NoteSeeder;
@@ -62,12 +61,7 @@ final class OnboardSeedManager
 
             return true;
         } catch (\Throwable $e) {
-            Log::error('Failed to generate demo data', [
-                'user_id' => $user->getKey(),
-                'team_id' => $team->getKey(),
-                'error' => $e->getMessage(),
-                'trace' => $e->getTraceAsString(),
-            ]);
+            report($e);
 
             return false;
         }
