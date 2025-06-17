@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Telis\OnboardSeed;
 
-use Throwable;
 use App\Models\User;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Telis\OnboardSeed\Contracts\ModelSeederInterface;
@@ -13,6 +12,7 @@ use Telis\OnboardSeed\ModelSeeders\NoteSeeder;
 use Telis\OnboardSeed\ModelSeeders\OpportunitySeeder;
 use Telis\OnboardSeed\ModelSeeders\PeopleSeeder;
 use Telis\OnboardSeed\ModelSeeders\TaskSeeder;
+use Throwable;
 
 final class OnboardSeedManager
 {

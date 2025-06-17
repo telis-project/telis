@@ -4,34 +4,31 @@ declare(strict_types=1);
 
 namespace Telis\Admin\Filament\Resources;
 
-use Override;
-use Filament\Schemas\Schema;
-use Filament\Forms\Components\Select;
-use Filament\Tables\Columns\TextColumn;
-use Filament\Actions\ViewAction;
-use Filament\Actions\EditAction;
-use Filament\Actions\BulkActionGroup;
-use Filament\Actions\DeleteBulkAction;
-use Telis\Admin\Filament\Resources\OpportunityResource\Pages\ListOpportunities;
-use Telis\Admin\Filament\Resources\OpportunityResource\Pages\CreateOpportunity;
-use Telis\Admin\Filament\Resources\OpportunityResource\Pages\ViewOpportunity;
-use Telis\Admin\Filament\Resources\OpportunityResource\Pages\EditOpportunity;
 use App\Enums\CreationSource;
 use App\Models\Opportunity;
-use Filament\Forms;
+use Filament\Actions\BulkActionGroup;
+use Filament\Actions\DeleteBulkAction;
+use Filament\Actions\EditAction;
+use Filament\Actions\ViewAction;
+use Filament\Forms\Components\Select;
 use Filament\Resources\Resource;
-use Filament\Tables;
+use Filament\Schemas\Schema;
+use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Filters\SelectFilter;
 use Filament\Tables\Table;
-use Telis\Admin\Filament\Resources\OpportunityResource\Pages;
+use Override;
+use Telis\Admin\Filament\Resources\OpportunityResource\Pages\CreateOpportunity;
+use Telis\Admin\Filament\Resources\OpportunityResource\Pages\EditOpportunity;
+use Telis\Admin\Filament\Resources\OpportunityResource\Pages\ListOpportunities;
+use Telis\Admin\Filament\Resources\OpportunityResource\Pages\ViewOpportunity;
 
 final class OpportunityResource extends Resource
 {
     protected static ?string $model = Opportunity::class;
 
-    protected static string | \BackedEnum | null $navigationIcon = 'heroicon-o-currency-dollar';
+    protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-currency-dollar';
 
-    protected static string | \UnitEnum | null $navigationGroup = 'CRM';
+    protected static string|\UnitEnum|null $navigationGroup = 'CRM';
 
     protected static ?int $navigationSort = 3;
 

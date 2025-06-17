@@ -4,9 +4,8 @@ declare(strict_types=1);
 
 namespace Telis\Admin\Filament\Resources\UserResource\Pages;
 
-use Filament\Actions\ViewAction;
 use Filament\Actions\DeleteAction;
-use Filament\Actions;
+use Filament\Actions\ViewAction;
 use Filament\Resources\Pages\EditRecord;
 use Telis\Admin\Filament\Resources\UserResource;
 

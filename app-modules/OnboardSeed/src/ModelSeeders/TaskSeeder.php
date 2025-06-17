@@ -4,14 +4,14 @@ declare(strict_types=1);
 
 namespace Telis\OnboardSeed\ModelSeeders;
 
-use Exception;
-use Illuminate\Support\Carbon;
 use App\Enums\CustomFields\Task as TaskCustomField;
 use App\Models\Task;
 use App\Models\Team;
 use App\Models\User;
+use Exception;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Log;
 use Telis\OnboardSeed\Support\BaseModelSeeder;
 use Telis\OnboardSeed\Support\FixtureRegistry;

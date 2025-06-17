@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Telis\Admin\Filament\Resources\PeopleResource\Pages;
 
 use Filament\Actions\EditAction;
-use Filament\Actions;
 use Filament\Resources\Pages\ViewRecord;
 use Telis\Admin\Filament\Resources\PeopleResource;
 

@@ -4,10 +4,9 @@ declare(strict_types=1);
 
 namespace Telis\Admin\Filament\Resources\TaskResource\Pages;
 
-use Override;
 use Filament\Actions\CreateAction;
-use Filament\Actions;
 use Filament\Resources\Pages\ListRecords;
+use Override;
 use Telis\Admin\Filament\Resources\TaskResource;
 
 final class ListTasks extends ListRecords
